@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    color: red;
+}
+
+table {
+    border: 3px solid blue;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid brown;
+    padding: 3px;
+    text-align: center;
+}
+
+th {
+    background-color: cadetblue;
+}
