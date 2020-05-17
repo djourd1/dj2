@@ -1,10 +1,3 @@
----
-title: What have we leared
-author: Damien Jourdain
-rights:  Creative Commons Non-Commercial Share Alike 3.0
-language: en-US
-...
-
 # Git basic commands
 
 ## Monter-descendre des fichiers
