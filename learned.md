@@ -14,7 +14,12 @@ Discussion sur la résolution de conflit quand on a utilisé pull ou push. Il se
 
 ## Autres commandes utiles
 
++ `git status`
 + `git log`
 + `git reflog`
 + git reset --hard numerodehashcorrespondant
 + git reset --hard origin/master
+
+When combining different versions of code, e.g. using `git pull`, a merge conflict can occur if the different versions have different data in the same location. Git will try to take care of merging automatically, but if two users edit, for example, the same line, a merge conflict will have to be manually resolved.
+
+*To resolve a merge conflict, simply locally remove all lines and code that are not wanted and push the results.*
