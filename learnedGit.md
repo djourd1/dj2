@@ -34,9 +34,9 @@ When merging a branch back into master, there is the possibility for merge confl
 
 Some Git commands related to branching:
 
-    +   git branch : list all the branches currently in a repository
-    +   git branch <name> : create a new branch called name
-    +    git checkout <name> : switch current working branch to name
-    +    git merge <name> : merge branch name into current working branch (normally master)
++   git branch : list all the branches currently in a repository
++   git branch <name> : create a new branch called name
++    git checkout <name> : switch current working branch to name
++    git merge <name> : merge branch name into current working branch (normally master)
 
 Any version of a repository that is not stored locally on a device is called a ‘remote’. ‘Origin’ is used to refer to the remote from which the local repository was originally downloaded from.
